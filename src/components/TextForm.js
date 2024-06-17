@@ -32,10 +32,10 @@ export default function TextForm(props) {
   </button>
   </div>
 
-  <div className='container my-4' style = {{color : props.mode ==='light'?'dark':'light'}}>
-    <h2>Your text summary</h2>
-    <p> Your text has {text.split(" ").length} words and {text.length} characters</p>
-    <h3>Preview</h3>
+  <div className={`container text-${props.mode==='dark'?'light':'dark'}`} style = {{color : props.mode ==='light'?'dark':'light'}}>
+    <h2 className={`container text-${props.mode==='dark'?'light':'dark'}`}>Your text summary</h2>
+    <p className={`container text-${props.mode==='dark'?'light':'dark'}`}> Your text has {text.split(" ").length} words and {text.length} characters</p>
+    <h3 className={`container text-${props.mode==='dark'?'light':'dark'}`}>Preview</h3>
     <p>{text}</p>
   </div>
   </>
