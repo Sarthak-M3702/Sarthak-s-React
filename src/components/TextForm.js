@@ -7,8 +7,22 @@ export default function TextForm(props) {
     console.log("Upper case was clicked");
     const newText = text.toUpperCase();
     setText(newText);
+    props.showAlert("Upper case has been activated","success");
   };
 
+
+  const handleLoclick =() =>{
+    console.log("Lower case was clicked");
+    const newText = text.toLowerCase();
+    setText(newText);
+    props.showAlert("Lower case has been activated","success");
+  };
+
+  const clearText=()=>{
+    let newtext='';
+    setText(newtext);
+    props.showAlert("Clear text has been activated","warning");
+  }
 
   const handleOnChange =(event) =>{
     console.log("on change");
@@ -29,6 +43,12 @@ export default function TextForm(props) {
   </div>
   <button className="btn btn-primary" onClick={handleUpclick}>
     Convert to UpperCase
+  </button>
+  <button className="btn btn-primary mx-2" onClick={handleLoclick}>
+    Convert to LowerCase
+  </button>
+  <button className="btn btn-primary mx-2" onClick={clearText}>
+   Clear Text
   </button>
   </div>
 
