@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a text manipulator single page web application that uses HTML , CSS , Javascript , ReactJS and Bootstrap to perform various operations on the text that is entered by theuser.
 
 ## Available Scripts
 
