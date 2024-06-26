@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sarthak-s-React/static/css/main.e6c13ad2.css",
-    "main.js": "/Sarthak-s-React/static/js/main.d39084b0.js",
-    "static/js/453.a6a97343.chunk.js": "/Sarthak-s-React/static/js/453.a6a97343.chunk.js",
-    "index.html": "/Sarthak-s-React/index.html",
-    "main.e6c13ad2.css.map": "/Sarthak-s-React/static/css/main.e6c13ad2.css.map",
-    "main.d39084b0.js.map": "/Sarthak-s-React/static/js/main.d39084b0.js.map",
-    "453.a6a97343.chunk.js.map": "/Sarthak-s-React/static/js/453.a6a97343.chunk.js.map"
+    "main.css": "/WrapitText/static/css/main.e6c13ad2.css",
+    "main.js": "/WrapitText/static/js/main.141964d6.js",
+    "static/js/453.a6a97343.chunk.js": "/WrapitText/static/js/453.a6a97343.chunk.js",
+    "index.html": "/WrapitText/index.html",
+    "main.e6c13ad2.css.map": "/WrapitText/static/css/main.e6c13ad2.css.map",
+    "main.141964d6.js.map": "/WrapitText/static/js/main.141964d6.js.map",
+    "453.a6a97343.chunk.js.map": "/WrapitText/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d39084b0.js"
+    "static/js/main.141964d6.js"
   ]
 }
